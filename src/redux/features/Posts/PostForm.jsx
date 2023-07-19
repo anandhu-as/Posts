@@ -23,6 +23,7 @@ const PostForm = () => {
       </option>
     );
   });
+
   return (
     <section className="p-4 bg-gray-200">
       <h2 className="text-2xl mb-4">Add new Post</h2>
@@ -50,6 +51,7 @@ const PostForm = () => {
       <button
         className="bg-blue-500 hover:bg-blue-600 text-white rounded p-2 mt-4"
         onClick={handleAdd}
+        
       >
         Save
       </button>
